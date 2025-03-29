@@ -4,7 +4,7 @@ import { FaCar, FaHandshake, FaUsers } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="container mx-auto py-12 px-6 text-white">
+    <div className="container mx-auto px-6 py-10 text-base-content">
       <motion.h1
         className="text-4xl font-bold text-center mb-6"
         initial={{ opacity: 0, y: -20 }}
@@ -14,7 +14,7 @@ const About = () => {
         About LuxET
       </motion.h1>
       <motion.p
-        className="text-lg text-gray-300 text-center max-w-3xl mx-auto mb-10"
+        className="text-lg text-center max-w-3xl mx-auto mb-10 text-base-content"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}

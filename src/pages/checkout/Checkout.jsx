@@ -1,7 +1,7 @@
-import React from 'react';
-import { useLocation } from 'react-router-dom';
-import CheckoutForm from './CheckoutForm';
-import OrderItem from './OrderItem';
+import React from "react";
+import { useLocation } from "react-router-dom";
+import CheckoutForm from "./CheckoutForm";
+import OrderItem from "./OrderItem";
 
 const Checkout = () => {
   const location = useLocation();
@@ -11,7 +11,7 @@ const Checkout = () => {
 
   return (
     <div className="my-6">
-      <h1 className="text-center p-4 font-mono font-semibold">Checkout</h1>
+      <h1 className="text-2xl font-bold text-center mb-6">Checkout</h1>
       <div className="flex flex-col md:flex-row justify-center md:gap-10">
         <CheckoutForm />
         {/* Pass selectedItems only if it's valid */}

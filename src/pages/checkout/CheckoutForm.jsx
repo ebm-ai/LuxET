@@ -28,7 +28,7 @@ const CheckoutForm = () => {
   };
 
   return (
-    <div className="max-w-lg p-6 bg-white shadow-md rounded-lg border-2 border-amber-50">
+    <div className="max-w-lg p-6 shadow-xl rounded-lg border-amber-50">
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
         <h1 className=" card-title text-xl font-semibold">
           Billing Information

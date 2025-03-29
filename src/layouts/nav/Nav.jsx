@@ -33,9 +33,9 @@ const Nav = () => {
   }, [visible]);
 
   return (
-    <div className=" navbar bg-base-100 shadow-sm flex justify-around md:items-center">
-      <div className="">
-        <a className="btn btn-ghost text-xl">LuxET</a>
+    <div className="navbar bg-base-100 shadow-sm flex justify-around md:items-center">
+      <div className="btn btn-ghost text-xl">
+        <a>LuxET</a>
       </div>
 
       {/* Desktop Menu */}
@@ -196,7 +196,7 @@ const Nav = () => {
           </li>
         </ul>
         <NavLink to="/cart">
-          <div className=" relative">
+          <div className="relative">
             <FaCartShopping size={24} className=" cursor-pointer" />
             {cartItemCount > 0 && (
               <span className="absolute -top-3 -right-5    bg-red-400 text-white text-xs font-bold px-1  rounded-full">

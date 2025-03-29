@@ -3,10 +3,9 @@ import React from "react";
 const Intro = () => {
   return (
     <div>
-      <div className="text-center pt-5 pb-3 md:py-7 relative bg-gradient-to-b from-transparent via-black to-black md:bg-none md:bg-black/30">
-        <div className="absolute inset-0 pointer-events-none"></div>
+      <div className="text-center pt-3 pb-3 md:py-10 relative bg-base-200">
         <div className="container mx-auto mt-7 md:mt-0">
-          <h1 className="text-white text-2xl md:text-4xl font-bold pt-2 pb-4 md:mt-5 md:pt-3">
+          <h1 className="text-base-content text-2xl md:text-4xl font-bold pt-2 pb-4 md:mt-5 md:pt-3">
             Car buying <span className="block">shaped to your life</span>
           </h1>
           <div className="hidden md:block mx-auto pb-3 max-w-md">

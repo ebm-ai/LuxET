@@ -11,7 +11,7 @@ const OrderItem = ({ item }) => {
 
   return (
     <div className="max-w-md">
-      <div className="card  shadow-xl p-6">
+      <div className="card shadow-xl p-6">
         <div className="card-body">
           <h2 className="card-title text-xl font-semibold">Order Summary</h2>
           <div className="border-b pb-4">
